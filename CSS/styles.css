@@ -1,0 +1,70 @@
+/* Geral */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+/* Nav Bar */
+.nav-container {
+    height: 80px;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: #232a31;
+}
+
+nav {
+    position:relative;
+}
+
+.logo {
+    margin-top: 15px;
+    width: 50px;
+}
+
+.navbar-itens {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-itens li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-itens a {
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-itens a:hover {
+    color: #CCC;
+}
+
+.default-btn {
+    background-color: #2cc76a;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.navbar-itens .default-btn:hover {
+    background-color: #22bb5f;
+    color: #FFF;
+}
