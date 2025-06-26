@@ -148,7 +148,8 @@ nav {
 
 .pricing-container h2 {
     font-size: 36px;
-    text-shadow: 2px 2px 2px #CCC
+    text-shadow: 2px 2px 2px #CCC;
+    margin-bottom: 5px;
 }
 
 .pricing-container p {
@@ -217,7 +218,6 @@ nav {
 
 .plan .plan-btn:hover {
     opacity: 1;
-    text-decoration: underline;
     color: #e8e9ea;
 }
 
@@ -267,7 +267,7 @@ nav {
     color: #FFF;
     font-size: 24px;
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .searchdomain-container input[type="submit"]:hover {
@@ -332,6 +332,16 @@ footer {
 
 footer p {
     color: #d5d5d5;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d5d5d5;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #e8e9ea;
 }
 
 /* Responsividade */
